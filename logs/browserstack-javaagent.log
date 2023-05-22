@@ -1,0 +1,440 @@
+00:31:38.671 [Surefire test-0@0] WARN  org.testng.TestRunner - Support to run JUnit tests using TestNG stands deprecated and will be removed in future versions. You can now use the JUnit5 TestNG engine to run both JUnit and TestNG tests. For more information refer to https://github.com/junit-team/testng-engine .
+00:31:38.732 [Surefire test-0@0] ERROR org.testng.TestRunner - 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+org.testng.TestNGException: 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:110)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NullPointerException: null
+	at com.browserstack.testNgListeners.InvokedMethodListener.beforeInvocation(Unknown Source)
+	at org.testng.junit.JUnit4TestRunner.createTestResult(JUnit4TestRunner.java:250)
+	at org.testng.junit.JUnit4TestRunner$1.shouldRun(JUnit4TestRunner.java:87)
+	at org.junit.runners.ParentRunner.shouldRun(ParentRunner.java:373)
+	at org.junit.runners.ParentRunner.filter(ParentRunner.java:326)
+	at org.junit.runner.manipulation.Filter.apply(Filter.java:97)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:32)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	... 13 common frames omitted
+00:31:38.732 [Surefire test-1@1] ERROR org.testng.TestRunner - 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+org.testng.TestNGException: 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:110)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NullPointerException: null
+	at com.browserstack.testNgListeners.InvokedMethodListener.beforeInvocation(Unknown Source)
+	at org.testng.junit.JUnit4TestRunner.createTestResult(JUnit4TestRunner.java:250)
+	at org.testng.junit.JUnit4TestRunner$1.shouldRun(JUnit4TestRunner.java:87)
+	at org.junit.runners.ParentRunner.shouldRun(ParentRunner.java:373)
+	at org.junit.runners.ParentRunner.filter(ParentRunner.java:326)
+	at org.junit.runner.manipulation.Filter.apply(Filter.java:97)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:32)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	... 13 common frames omitted
+00:31:38.732 [Surefire test-2@2] ERROR org.testng.TestRunner - 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+org.testng.TestNGException: 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:110)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NullPointerException: null
+	at com.browserstack.testNgListeners.InvokedMethodListener.beforeInvocation(Unknown Source)
+	at org.testng.junit.JUnit4TestRunner.createTestResult(JUnit4TestRunner.java:250)
+	at org.testng.junit.JUnit4TestRunner$1.shouldRun(JUnit4TestRunner.java:87)
+	at org.junit.runners.ParentRunner.shouldRun(ParentRunner.java:373)
+	at org.junit.runners.ParentRunner.filter(ParentRunner.java:326)
+	at org.junit.runner.manipulation.Filter.apply(Filter.java:97)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:32)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	... 13 common frames omitted
+00:16:08.594 [Surefire test-1@1] WARN  org.testng.TestRunner - Support to run JUnit tests using TestNG stands deprecated and will be removed in future versions. You can now use the JUnit5 TestNG engine to run both JUnit and TestNG tests. For more information refer to https://github.com/junit-team/testng-engine .
+00:16:08.642 [Surefire test-1@1] ERROR org.testng.TestRunner - 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+org.testng.TestNGException: 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:110)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NullPointerException: null
+	at com.browserstack.testNgListeners.InvokedMethodListener.beforeInvocation(Unknown Source)
+	at org.testng.junit.JUnit4TestRunner.createTestResult(JUnit4TestRunner.java:250)
+	at org.testng.junit.JUnit4TestRunner$1.shouldRun(JUnit4TestRunner.java:87)
+	at org.junit.runners.ParentRunner.shouldRun(ParentRunner.java:373)
+	at org.junit.runners.ParentRunner.filter(ParentRunner.java:326)
+	at org.junit.runner.manipulation.Filter.apply(Filter.java:97)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:32)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	... 13 common frames omitted
+00:16:08.642 [Surefire test-0@0] ERROR org.testng.TestRunner - 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+org.testng.TestNGException: 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:110)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NullPointerException: null
+	at com.browserstack.testNgListeners.InvokedMethodListener.beforeInvocation(Unknown Source)
+	at org.testng.junit.JUnit4TestRunner.createTestResult(JUnit4TestRunner.java:250)
+	at org.testng.junit.JUnit4TestRunner$1.shouldRun(JUnit4TestRunner.java:87)
+	at org.junit.runners.ParentRunner.shouldRun(ParentRunner.java:373)
+	at org.junit.runners.ParentRunner.filter(ParentRunner.java:326)
+	at org.junit.runner.manipulation.Filter.apply(Filter.java:97)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:32)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	... 13 common frames omitted
+00:16:08.642 [Surefire test-2@2] ERROR org.testng.TestRunner - 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+org.testng.TestNGException: 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:110)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NullPointerException: null
+	at com.browserstack.testNgListeners.InvokedMethodListener.beforeInvocation(Unknown Source)
+	at org.testng.junit.JUnit4TestRunner.createTestResult(JUnit4TestRunner.java:250)
+	at org.testng.junit.JUnit4TestRunner$1.shouldRun(JUnit4TestRunner.java:87)
+	at org.junit.runners.ParentRunner.shouldRun(ParentRunner.java:373)
+	at org.junit.runners.ParentRunner.filter(ParentRunner.java:326)
+	at org.junit.runner.manipulation.Filter.apply(Filter.java:97)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:32)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	... 13 common frames omitted
+18:19:25.666 [Surefire test-0@0] WARN  org.testng.TestRunner - Support to run JUnit tests using TestNG stands deprecated and will be removed in future versions. You can now use the JUnit5 TestNG engine to run both JUnit and TestNG tests. For more information refer to https://github.com/junit-team/testng-engine .
+18:19:25.716 [Surefire test-1@1] ERROR org.testng.TestRunner - 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+org.testng.TestNGException: 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:110)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NullPointerException: null
+	at com.browserstack.testNgListeners.InvokedMethodListener.beforeInvocation(Unknown Source)
+	at org.testng.junit.JUnit4TestRunner.createTestResult(JUnit4TestRunner.java:250)
+	at org.testng.junit.JUnit4TestRunner$1.shouldRun(JUnit4TestRunner.java:87)
+	at org.junit.runners.ParentRunner.shouldRun(ParentRunner.java:373)
+	at org.junit.runners.ParentRunner.filter(ParentRunner.java:326)
+	at org.junit.runner.manipulation.Filter.apply(Filter.java:97)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:32)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	... 13 common frames omitted
+18:19:25.716 [Surefire test-2@2] ERROR org.testng.TestRunner - 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+org.testng.TestNGException: 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:110)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NullPointerException: null
+	at com.browserstack.testNgListeners.InvokedMethodListener.beforeInvocation(Unknown Source)
+	at org.testng.junit.JUnit4TestRunner.createTestResult(JUnit4TestRunner.java:250)
+	at org.testng.junit.JUnit4TestRunner$1.shouldRun(JUnit4TestRunner.java:87)
+	at org.junit.runners.ParentRunner.shouldRun(ParentRunner.java:373)
+	at org.junit.runners.ParentRunner.filter(ParentRunner.java:326)
+	at org.junit.runner.manipulation.Filter.apply(Filter.java:97)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:32)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	... 13 common frames omitted
+18:19:25.716 [Surefire test-0@0] ERROR org.testng.TestRunner - 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+org.testng.TestNGException: 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:110)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NullPointerException: null
+	at com.browserstack.testNgListeners.InvokedMethodListener.beforeInvocation(Unknown Source)
+	at org.testng.junit.JUnit4TestRunner.createTestResult(JUnit4TestRunner.java:250)
+	at org.testng.junit.JUnit4TestRunner$1.shouldRun(JUnit4TestRunner.java:87)
+	at org.junit.runners.ParentRunner.shouldRun(ParentRunner.java:373)
+	at org.junit.runners.ParentRunner.filter(ParentRunner.java:326)
+	at org.junit.runner.manipulation.Filter.apply(Filter.java:97)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:32)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	... 13 common frames omitted
+18:24:17.087 [Surefire test-2@2] WARN  org.testng.TestRunner - Support to run JUnit tests using TestNG stands deprecated and will be removed in future versions. You can now use the JUnit5 TestNG engine to run both JUnit and TestNG tests. For more information refer to https://github.com/junit-team/testng-engine .
+18:24:17.140 [Surefire test-0@0] ERROR org.testng.TestRunner - 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+org.testng.TestNGException: 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:110)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NullPointerException: null
+	at com.browserstack.testNgListeners.InvokedMethodListener.beforeInvocation(Unknown Source)
+	at org.testng.junit.JUnit4TestRunner.createTestResult(JUnit4TestRunner.java:250)
+	at org.testng.junit.JUnit4TestRunner$1.shouldRun(JUnit4TestRunner.java:87)
+	at org.junit.runners.ParentRunner.shouldRun(ParentRunner.java:373)
+	at org.junit.runners.ParentRunner.filter(ParentRunner.java:326)
+	at org.junit.runner.manipulation.Filter.apply(Filter.java:97)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:32)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	... 13 common frames omitted
+18:24:17.140 [Surefire test-1@1] ERROR org.testng.TestRunner - 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+org.testng.TestNGException: 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:110)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NullPointerException: null
+	at com.browserstack.testNgListeners.InvokedMethodListener.beforeInvocation(Unknown Source)
+	at org.testng.junit.JUnit4TestRunner.createTestResult(JUnit4TestRunner.java:250)
+	at org.testng.junit.JUnit4TestRunner$1.shouldRun(JUnit4TestRunner.java:87)
+	at org.junit.runners.ParentRunner.shouldRun(ParentRunner.java:373)
+	at org.junit.runners.ParentRunner.filter(ParentRunner.java:326)
+	at org.junit.runner.manipulation.Filter.apply(Filter.java:97)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:32)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	... 13 common frames omitted
+18:24:17.140 [Surefire test-2@2] ERROR org.testng.TestRunner - 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+org.testng.TestNGException: 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:110)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NullPointerException: null
+	at com.browserstack.testNgListeners.InvokedMethodListener.beforeInvocation(Unknown Source)
+	at org.testng.junit.JUnit4TestRunner.createTestResult(JUnit4TestRunner.java:250)
+	at org.testng.junit.JUnit4TestRunner$1.shouldRun(JUnit4TestRunner.java:87)
+	at org.junit.runners.ParentRunner.shouldRun(ParentRunner.java:373)
+	at org.junit.runners.ParentRunner.filter(ParentRunner.java:326)
+	at org.junit.runner.manipulation.Filter.apply(Filter.java:97)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:32)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	... 13 common frames omitted
+18:24:29.355 [Surefire test-0@0] WARN  org.testng.TestRunner - Support to run JUnit tests using TestNG stands deprecated and will be removed in future versions. You can now use the JUnit5 TestNG engine to run both JUnit and TestNG tests. For more information refer to https://github.com/junit-team/testng-engine .
+18:24:29.433 [Surefire test-0@0] ERROR org.testng.TestRunner - 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+org.testng.TestNGException: 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:110)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NullPointerException: null
+	at com.browserstack.testNgListeners.InvokedMethodListener.beforeInvocation(Unknown Source)
+	at org.testng.junit.JUnit4TestRunner.createTestResult(JUnit4TestRunner.java:250)
+	at org.testng.junit.JUnit4TestRunner$1.shouldRun(JUnit4TestRunner.java:87)
+	at org.junit.runners.ParentRunner.shouldRun(ParentRunner.java:373)
+	at org.junit.runners.ParentRunner.filter(ParentRunner.java:326)
+	at org.junit.runner.manipulation.Filter.apply(Filter.java:97)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:32)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	... 13 common frames omitted
+18:24:29.433 [Surefire test-1@1] ERROR org.testng.TestRunner - 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+org.testng.TestNGException: 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:110)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NullPointerException: null
+	at com.browserstack.testNgListeners.InvokedMethodListener.beforeInvocation(Unknown Source)
+	at org.testng.junit.JUnit4TestRunner.createTestResult(JUnit4TestRunner.java:250)
+	at org.testng.junit.JUnit4TestRunner$1.shouldRun(JUnit4TestRunner.java:87)
+	at org.junit.runners.ParentRunner.shouldRun(ParentRunner.java:373)
+	at org.junit.runners.ParentRunner.filter(ParentRunner.java:326)
+	at org.junit.runner.manipulation.Filter.apply(Filter.java:97)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:32)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	... 13 common frames omitted
+18:24:29.433 [Surefire test-2@2] ERROR org.testng.TestRunner - 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+org.testng.TestNGException: 
+Failure in JUnit mode for class restAssuredApi.apiFramework.AppTest
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:110)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NullPointerException: null
+	at com.browserstack.testNgListeners.InvokedMethodListener.beforeInvocation(Unknown Source)
+	at org.testng.junit.JUnit4TestRunner.createTestResult(JUnit4TestRunner.java:250)
+	at org.testng.junit.JUnit4TestRunner$1.shouldRun(JUnit4TestRunner.java:87)
+	at org.junit.runners.ParentRunner.shouldRun(ParentRunner.java:373)
+	at org.junit.runners.ParentRunner.filter(ParentRunner.java:326)
+	at org.junit.runner.manipulation.Filter.apply(Filter.java:97)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:32)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	... 13 common frames omitted
